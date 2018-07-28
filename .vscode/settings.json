@@ -1,0 +1,6 @@
+{
+    "typescript.validate.enable": false,
+    "typescript.format.enable": false,
+    "tslint.jsEnable": false,
+    "javascript.validate.enable": false
+}
