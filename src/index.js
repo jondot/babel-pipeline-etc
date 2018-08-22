@@ -8,6 +8,20 @@ const heroes = [
 
 // Ramda functions curry by default, and so, perfectly matches
 // the pipeline style.
+/*
+
+It should look like this with the upcoming partial-application:
+
+console.log(
+    [1, 2, 3]
+    |> map(? * 2)
+    |> filter(? > 4)
+    |> map(? * 4)
+)
+
+See:
+https://github.com/tc39/proposal-partial-application
+*/
 console.log(
     [1, 2, 3]
     |> map(_ => _ * 2)
